@@ -1,0 +1,18 @@
+.data: Store subsequent items in the static segment at the next available address
+.word: Store listed values as unalighed 32-bit words
+.test: Store subsequent instructions in the text segment at the next available address
+
+34 the 9th number of fib-sequence
+
+0x10000010
+
+change t3(x28) when using step to lw t3, 0(t3)
+
+
+
+k is t0
+the pointer to source is t4; the pointer to dest is t6
+using jal jump to loop and using beq to control
+using slli to represent the move-step of pointer and using lw to load data
+
+
